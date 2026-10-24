@@ -1,0 +1,121 @@
+name: Bug report / Reportar un fallo
+description: Something doesn't work as expected. / Algo no funciona como debería.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! You can write in English or Spanish.
+        ¡Gracias por avisar! Puedes escribir en inglés o en español.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened? / ¿Qué pasó?
+      description: Describe the problem. / Describe el problema.
+      placeholder: I pressed Play and the game didn't open. / Pulsé Jugar y el juego no se abrió.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Pasos para reproducirlo
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / ¿Qué esperabas que pasara?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Parte del widget
+      multiple: true
+      options:
+        - Launching games / Abrir juegos
+        - Gamepad / Mando
+        - Keyboard / Teclado
+        - Sounds / Sonidos
+        - Hiding windows / Ocultar ventanas
+        - Appearance or animations / Apariencia o animaciones
+        - Settings / Ajustes
+        - Other / Otra
+    validations:
+      required: true
+
+  - type: input
+    id: widget-version
+    attributes:
+      label: Widget version / Versión del widget
+      description: Settings → About. / Ajustes → Acerca de.
+      placeholder: "1.0.2"
+    validations:
+      required: true
+
+  - type: input
+    id: distro
+    attributes:
+      label: Distribution / Distribución
+      placeholder: CachyOS, Fedora 43, Kubuntu 26.04…
+    validations:
+      required: true
+
+  - type: input
+    id: plasma-version
+    attributes:
+      label: Plasma version / Versión de Plasma
+      description: "Run / Ejecuta: plasmashell --version"
+      placeholder: "6.8.1"
+    validations:
+      required: true
+
+  - type: input
+    id: qt-version
+    attributes:
+      label: Qt version / Versión de Qt
+      description: "Run / Ejecuta: qtpaths6 --qt-version"
+      placeholder: "6.12.0"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: session
+    attributes:
+      label: Session / Sesión
+      options:
+        - Wayland
+        - X11
+        - I don't know / No lo sé
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log / Registro
+      description: |
+        Right after the problem happens, run this and paste the output.
+        Justo después de que ocurra el fallo, ejecuta esto y pega el resultado.
+
+        `journalctl --user -u plasma-plasmashell --since "-5min" | grep -i nondot`
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else / Capturas o algo más
+      description: You can drag images here. / Puedes arrastrar imágenes aquí.
+    validations:
+      required: false
