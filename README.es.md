@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.svg" width="160" alt="Logo de NonDot GameLibrary"></p>
+
 # NonDot GameLibrary
 
 *[English](README.md) · Español*

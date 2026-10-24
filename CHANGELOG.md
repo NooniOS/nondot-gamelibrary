@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- New logo, also used as the widget's icon in Plasma's widget selector and About page.
+
 ## 1.0.0
 
 First public release.
