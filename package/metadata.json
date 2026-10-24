@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "NooniOS"
+            }
+        ],
+        "BugReportUrl": "https://github.com/NooniOS/nondot-gamelibrary/issues",
+        "Category": "Fun and Games",
+        "Description": "A shelf to show off your games retro-style. Brings back the thrill of seeing a box and a disc on your PC.",
+        "Description[es]": "Estantería para mostrar tus juegos de modo retro, trae de vuelta la emoción de ver una caja y un disco a tu PC",
+        "Icon": "applications-games",
+        "Id": "io.github.noonios.nondotgamelibrary",
+        "License": "GPL-2.0-or-later",
+        "Name": "NonDot GameLibrary",
+        "Version": "1.0.0",
+        "Website": "https://github.com/NooniOS/nondot-gamelibrary"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

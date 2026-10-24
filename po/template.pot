@@ -1,0 +1,954 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the NonDot GameLibrary package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NonDot GameLibrary 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/NooniOS/nondot-gamelibrary/issues\n"
+"POT-Creation-Date: 2026-10-24 02:20-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: package/contents/config/config.qml:14
+msgid "Games"
+msgstr ""
+
+#: package/contents/config/config.qml:19
+msgid "Appearance"
+msgstr ""
+
+#: package/contents/config/config.qml:24
+msgid "When Playing"
+msgstr ""
+
+#: package/contents/config/config.qml:29
+#: package/contents/ui/configSounds.qml:142
+msgid "Sounds"
+msgstr ""
+
+#: package/contents/config/config.qml:34
+msgid "Controls"
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:44
+msgid "Import disc art"
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:50
+msgid "Use this disc"
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:80
+msgid "Could not save the image to %1."
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:94
+msgid "Fit the circle to the edge of the disc: drag it from inside to move it and from its edge to resize it."
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:222
+#: package/contents/ui/WrapImportDialog.qml:258
+msgid "Result"
+msgstr ""
+
+#: package/contents/ui/DiscImportDialog.qml:266
+msgid "The widget adds the hole and the center ring."
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:81
+msgid "Open the library"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:82
+msgid "hold %1 s"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:82
+msgid "press together"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:83
+msgid "Play"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:84
+msgid "Leave"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:85
+msgid "Move"
+msgstr ""
+
+#: package/contents/ui/PadDiagram.qml:85
+msgid "d-pad or stick"
+msgstr ""
+
+#: package/contents/ui/WrapImportDialog.qml:62
+msgid "Import full box"
+msgstr ""
+
+#: package/contents/ui/WrapImportDialog.qml:68
+msgid "Create spine and cover"
+msgstr ""
+
+#: package/contents/ui/WrapImportDialog.qml:110
+msgid "Could not save the images to %1."
+msgstr ""
+
+#: package/contents/ui/WrapImportDialog.qml:126
+msgid "Drag the lines to mark both edges of the spine, the right edge of the front cover and the top and bottom edges. The back cover is not used."
+msgstr ""
+
+#: package/contents/ui/WrapImportDialog.qml:308
+msgid "With the spine set to “Real proportions”, the spine is shown as is, without stretching."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:63
+msgid "Style"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:67
+msgid "Look:"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:68
+msgid "Shelf"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:69
+msgid "Spines on shelves; hover over one and the box slides out and turns."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:74
+msgid "Jukebox"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:75
+msgid "Covers facing you; the selected one grows. If they don't fit, it becomes a carousel."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:82
+msgid "Boxes"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:86
+msgid "Size:"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:88
+msgid "Large"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:88
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:88
+msgid "Small"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:94
+#: package/contents/ui/configGames.qml:1036
+msgid "Spine:"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:95
+msgid "Real proportions"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:96
+msgid "Each spine as wide as its image really is. Ideal for full box art."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:101
+msgid "Thick"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:102
+msgid "Wide spines with the game's name or logo."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:109
+msgid "Scroll bar"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:113
+msgid "Bar:"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:114
+msgid "Show the bar below the shelf"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:123
+msgid "One dot per game: slide the dot to browse them and release to play."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:128
+msgid "Compatibility"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:136
+msgid "Your Qt version is older than 6.9: the widget is already using compatibility mode even if the box is unchecked."
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:140
+msgid "Compatibility mode:"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:141
+msgid "For Qt versions older than 6.9"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:151
+msgid "What you lose: the soft shadows of the boxes (simpler layered shadows are used instead) and the crisp clipping of the disc art (a mask is used and the edge may look slightly less smooth). Everything else works the same."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:72
+msgid "No button was received. Check that the gamepad is connected and try again."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:77
+msgid "That combination can't be used (4 buttons at once at most)."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:81
+msgid "You chose a single button. Keep in mind you'll also press it while playing: a combination is safer."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:86
+msgid "Choose a single button."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:101
+msgid "Menu (Options)"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:101
+msgid "View (Share)"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:102
+msgid "Left stick"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:102
+msgid "Right stick"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:102
+msgid "Share"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:109
+msgid "button %1"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:121
+msgid "Keyboard"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:125
+msgid "Shortcut:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:128
+msgid "Set it on the “Keyboard Shortcuts” page of this same window."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:134
+msgid "A shortcut is required for the gamepad to work: the gamepad opens the library by triggering that shortcut."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:137
+msgid "With the library open:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:140
+msgid "← → to move, ↑ ↓ to change shelf, Enter to play and Esc to leave."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:146
+msgid "Gamepad"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:154
+msgid "Python 3 was not found; the widget needs it to read the gamepad. Install it with your distribution's package manager."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:158
+msgid "Use gamepad:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:159
+msgid "Open and browse the library with a gamepad"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:169
+msgid "Requires a keyboard shortcut (Keyboard section, above)."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:173
+msgid "Connected:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:177
+msgid "Searching…"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:179
+msgid "No gamepad. Connect it via USB or Bluetooth and press “Search”."
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:184
+msgid "Search"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:205
+msgid "Buttons"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:209
+msgid "Open the library:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:212
+msgid "Press the combination on the gamepad and release it…"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:216
+#: package/contents/ui/configGamepad.qml:242
+#: package/contents/ui/configGamepad.qml:256
+msgid "Change…"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:223
+msgid "Hold it for:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:235
+msgid "Play:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:238
+#: package/contents/ui/configGamepad.qml:252
+msgid "Press a button…"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:249
+msgid "Leave:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:263
+msgid "Move:"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:264
+msgid "D-pad or left stick"
+msgstr ""
+
+#: package/contents/ui/configGamepad.qml:282
+msgid "The gamepad keeps listening while you play, so choose a combination you don't use in games. If you ever press it by accident, increase the hold time. With Steam open, Steam Input may create a second virtual gamepad: if a button counts twice, disable Steam Input for the desktop."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:110
+#: package/contents/ui/configGames.qml:330
+msgid "New game"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:200
+msgid "There are no unused images."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:212
+msgid "Deleted %1 unused image."
+msgid_plural "Deleted %1 unused images."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:214
+msgid "Some images could not be deleted: %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:250
+msgid "Only PNG, JPG or WEBP images are accepted."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:262
+msgid "Could not copy the image: %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:271
+msgid "Only WAV, OGG, OPUS, MP3 or FLAC sounds are accepted."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:281
+#: package/contents/ui/configSounds.qml:132
+msgid "Could not copy the sound: %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:312
+msgid "Steam has no art saved for id %1 on this computer."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:380
+msgid "Added %1 game."
+msgid_plural "Added %1 games."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:382
+msgid "%1 was already on the shelf."
+msgid_plural "%1 were already on the shelf."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:384
+msgid "%1 has a file name that is not allowed."
+msgid_plural "%1 have a file name that is not allowed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:390
+msgid "Choose your games' shortcuts"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:392
+#: package/contents/ui/configGames.qml:409
+msgid "Shortcuts (*.desktop)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:400
+msgid "Choose an image"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:401
+#: package/contents/ui/configGames.qml:432
+#: package/contents/ui/configGames.qml:465
+msgid "Images (*.png *.jpg *.jpeg *.webp)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:408
+msgid "Choose the game's shortcut"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:417
+msgid "That file name has characters that are not allowed."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:422
+msgid "That file is not in an applications folder; it may not be found when launching."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:431
+msgid "Choose the full box art"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:449
+#: package/contents/ui/configGames.qml:479
+msgid "Could not create the folder %1: %2"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:456
+msgid "Choose the sound for this game"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:457
+#: package/contents/ui/configSounds.qml:115
+msgid "Sounds (*.wav *.ogg *.oga *.opus *.mp3 *.flac)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:464
+msgid "Choose the disc image"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:488
+msgid "Disc art created."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:497
+msgid "Spine and cover created."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:513
+msgid "List exported: %1 game to %2."
+msgid_plural "List exported: %1 games to %2."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:515
+msgid "Could not export the list: %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:522
+msgid "Could not read the file: %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:529
+#: package/contents/ui/configGames.qml:534
+msgid "That file is not a valid game list."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:539
+msgid "The file has no games."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:580
+msgid "Imported %1 game. Press Apply to save it."
+msgid_plural "Imported %1 games. Press Apply to save them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:585
+msgid "Export the game list"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:588
+#: package/contents/ui/configGames.qml:597
+msgid "Game list (*.json)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:596
+msgid "Import a game list"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:604
+msgid "Import list"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:605
+msgid "The file has %1 game."
+msgid_plural "The file has %1 games."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:606
+msgid "Your current list has %1."
+msgid_plural "Your current list has %1."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:610
+msgid "Add to my list"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:618
+msgid "Replace my list"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:630
+msgid "Clean up unused images"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:631
+msgid "%1 image (%2) will be deleted from the widget's folder, %3. Nothing from Steam, your downloads or the original images is touched."
+msgid_plural "%1 images (%2) will be deleted from the widget's folder, %3. Nothing from Steam, your downloads or the original images is touched."
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:640
+msgid "Remove game"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:641
+msgid "Remove “%1” from the shelf? The game is not uninstalled."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:658
+msgid "(fallback color)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:678
+msgid "Pick an image"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:692
+msgid "Remove the image"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:704
+msgid "The saved list was damaged (%1). If you apply changes, a new list will be saved."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:733
+msgid "Add"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:739
+msgid "An empty game"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:744
+msgid "Several games from their shortcuts…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:754
+msgid "Move up (Alt + ↑)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:761
+msgid "Move down (Alt + ↓)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:768
+msgid "Remove from the shelf…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:840
+msgid "(no name)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:846
+msgid "Invalid launcher"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:847
+msgid "Steam · %1"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:849
+msgid "No launcher"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:865
+msgid "%1 game"
+msgid_plural "%1 games"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configGames.qml:872
+msgid "Export or import…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:879
+msgid "Export list…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:885
+msgid "Import list…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:894
+msgid "Clean up unused images…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:897
+msgid "Deletes the copies no game of this widget uses anymore (for example, after importing several times). Only inside %1."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:916
+msgid "No game selected"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:917
+msgid "Add a game or choose one from the list."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:950
+msgid "Turn the box: spine ↔ cover"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:962
+msgid "Game"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:966
+msgid "Name:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:973
+msgid "Launcher:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:977
+msgid "game.desktop or steam://rungameid/123"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:984
+msgid "Choose the shortcut (.desktop)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:994
+msgid "Invalid. Use the name of a .desktop file (no folders) or steam://rungameid/<number>."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:995
+msgid "If there is a Steam id, the game opens through Steam even without a launcher."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:996
+msgid "Valid."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1000
+msgid "Steam id:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1002
+msgid "optional"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1011
+msgid "Box art"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1015
+msgid "Import:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1018
+msgid "Full box…"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1020
+msgid "One image with back cover, spine and front cover (for example from steamgamecovers.com). Creates the spine and the cover."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1025
+msgid "Steam art"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1028
+msgid "The cover and logo Steam keeps on your computer for this game."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1042
+msgid "Cover:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1048
+msgid "Spine logo:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1055
+msgid "Disc"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1061
+msgid "Disc art:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1063
+msgid "(the cover is used)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1064
+msgid "Import disc: place a circle over the disc of a template (for example, the “Disc face” from steamgamecovers.com)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1071
+msgid "Disc sound:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1077
+msgid "(the general “Play” sound)"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1085
+#: package/contents/ui/configSounds.qml:209
+msgid "Preview"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1091
+msgid "Choose this disc's sound (for example, the game's theme). It plays when you select it and fades out when the animation ends."
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1098
+msgid "Remove the sound"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1106
+msgid "Fallback color"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1110
+msgid "Color:"
+msgstr ""
+
+#: package/contents/ui/configGames.qml:1140
+msgid "Used on the spine and cover when there is no image."
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:29
+msgid "Disc animation"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:33
+msgid "When playing:"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:34
+msgid "Open the box and spin the disc"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:40
+msgid "Duration:"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:49
+msgid "second"
+msgid_plural "seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package/contents/ui/configPlay.qml:58
+msgid "A click, Esc or the gamepad's leave button cancels it. While it spins, the game is not launched again."
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:63
+msgid "Steam"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:67
+msgid "Steam windows:"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:69
+msgid "Keep Steam minimized while the disc spins"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:78
+msgid "If Steam opens a window (for example, to update the game), it is minimized so the whole animation can be seen. The game's window is not touched."
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:83
+msgid "Testing"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:87
+msgid "Test mode:"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:88
+msgid "Don't open the games"
+msgstr ""
+
+#: package/contents/ui/configPlay.qml:97
+msgid "Everything works the same (the box, the disc, the sounds, the windows, the keyboard and the gamepad), but nothing opens when you play. While it is on, the widget shows “TEST MODE”."
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:40
+msgid "Moving between games"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:41
+msgid "Opening the box"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:42
+msgid "Spinning disc"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:43
+msgid "Play (discs without their own sound)"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:44
+msgid "Closing the box"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:114
+msgid "Choose a sound"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:121
+msgid "That file is not a sound the widget can use."
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:150
+msgid "Qt Multimedia was not found (package qt6-multimedia): the widget works, but without sound."
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:154
+msgid "Sounds:"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:155
+msgid "Play sounds"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:161
+msgid "Volume:"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:173
+#, javascript-format
+msgid "%1%"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:179
+msgid "Each moment"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:195
+msgid "Enable this sound"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:202
+msgid "Widget sound"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:219
+msgid "Choose your own file"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:226
+msgid "Back to the widget sound"
+msgstr ""
+
+#: package/contents/ui/configSounds.qml:238
+msgid "Each disc can have its own sound when you select it: on the Games page, Disc section. The spinning disc loops while the animation lasts."
+msgstr ""
+
+#: package/contents/ui/main.qml:82
+msgid "“%1” has no launcher. Add one in the settings."
+msgstr ""
+
+#: package/contents/ui/main.qml:85
+msgid "The launcher of “%1” is not valid."
+msgstr ""
+
+#: package/contents/ui/main.qml:88
+msgid "Opening %1…"
+msgstr ""
+
+#: package/contents/ui/main.qml:88
+msgid "Test mode: “%1” is not opened"
+msgstr ""
+
+#: package/contents/ui/main.qml:343
+msgid "Could not open the game: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:458
+msgid "The game list is damaged"
+msgstr ""
+
+#: package/contents/ui/main.qml:458
+msgid "Your shelf is empty"
+msgstr ""
+
+#: package/contents/ui/main.qml:465
+msgid "Open the settings to check it (%1)."
+msgstr ""
+
+#: package/contents/ui/main.qml:466
+msgid "Add your games from the widget's settings."
+msgstr ""
+
+#: package/contents/ui/main.qml:471
+msgid "Add games…"
+msgstr ""
+
+#: package/contents/ui/main.qml:490
+msgid "TEST MODE"
+msgstr ""

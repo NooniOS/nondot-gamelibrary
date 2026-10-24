@@ -1,0 +1,6 @@
+# Paquetes generados por tools/pack.py
+*.plasmoid
+
+# Python
+__pycache__/
+*.pyc

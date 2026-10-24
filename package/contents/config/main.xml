@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SPDX-FileCopyrightText: 2026 NooniOS
+    SPDX-License-Identifier: GPL-2.0-or-later
+-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="gamesJson" type="String">
+      <label>Lista de juegos en JSON: [{id, name, launcher, steamId, spineImage, coverImage, logoImage, color}].</label>
+      <default></default>
+    </entry>
+    <entry name="layoutMode" type="Int">
+      <label>Estilo: 0 = estantería (lomos; al pasar el cursor la caja gira), 1 = rocola (portadas de frente; la elegida crece; carrusel si no caben).</label>
+      <default>0</default>
+      <min>0</min>
+      <max>1</max>
+    </entry>
+    <entry name="launchAnimation" type="Bool">
+      <label>Al jugar, la caja se abre y el disco gira hasta que aparece la ventana del juego.</label>
+      <default>true</default>
+    </entry>
+    <entry name="launchSeconds" type="Int">
+      <label>Segundos que gira el disco al jugar.</label>
+      <default>5</default>
+      <min>1</min>
+      <max>30</max>
+    </entry>
+    <entry name="keepSteamMinimized" type="Bool">
+      <label>Mientras gira el disco, minimizar las ventanas del cliente de Steam que aparezcan (no las del juego).</label>
+      <default>true</default>
+    </entry>
+    <entry name="soundsEnabled" type="Bool">
+      <label>Reproducir sonidos (pasar de juego, abrir la caja, disco girando, jugar, cerrar).</label>
+      <default>true</default>
+    </entry>
+    <entry name="soundVolume" type="Int">
+      <label>Volumen de los sonidos, en porcentaje.</label>
+      <default>50</default>
+      <min>0</min>
+      <max>100</max>
+    </entry>
+    <entry name="soundEvents" type="String">
+      <label>JSON con cada evento: {"navigate": {"on": true, "file": ""}, …}; file vacío = sonido del widget. El disco girando viene apagado.</label>
+      <default>{"spin": {"on": false, "file": ""}}</default>
+    </entry>
+    <entry name="testMode" type="Bool">
+      <label>Modo prueba: todo funciona igual (animación, sonidos, ventanas, teclado y mando), pero no se abren los juegos.</label>
+      <default>false</default>
+    </entry>
+    <entry name="compatMode" type="Bool">
+      <label>Modo compatibilidad para Qt anterior a 6.9: sombras de las cajas y recorte del disco más simples.</label>
+      <default>false</default>
+    </entry>
+    <entry name="showScrubber" type="Bool">
+      <label>Muestra bajo la estantería una barra para recorrer los juegos deslizando el cursor.</label>
+      <default>true</default>
+    </entry>
+    <entry name="gamepadEnabled" type="Bool">
+      <label>Usar un mando: una combinación abre la librería y se navega con la cruceta o el stick.</label>
+      <default>false</default>
+    </entry>
+    <entry name="gamepadCombo" type="String">
+      <label>Combinación que abre la librería ("k314+k315" = Vista + Menú en un mando de Xbox).</label>
+      <default>k314+k315</default>
+    </entry>
+    <entry name="gamepadHoldMs" type="Int">
+      <label>Milisegundos que hay que mantener la combinación (0 = basta con pulsarla).</label>
+      <default>0</default>
+      <min>0</min>
+      <max>3000</max>
+    </entry>
+    <entry name="gamepadOk" type="String">
+      <label>Botón para jugar ("k304" = A).</label>
+      <default>k304</default>
+    </entry>
+    <entry name="gamepadBack" type="String">
+      <label>Botón para salir ("k305" = B).</label>
+      <default>k305</default>
+    </entry>
+    <entry name="removedIds" type="String">
+      <label>Ids (JSON) de juegos quitados de este widget, para poder limpiar sus imágenes.</label>
+      <default>[]</default>
+    </entry>
+    <entry name="spineMode" type="Int">
+      <label>Lomo: 0 = proporción real de su imagen (para arte de caja completa), 1 = grueso.</label>
+      <default>0</default>
+      <min>0</min>
+      <max>1</max>
+    </entry>
+    <entry name="boxHeight" type="Int">
+      <label>Alto de las cajas en px (150, 200 o 260). El resto de medidas sale de aquí.</label>
+      <default>200</default>
+      <min>120</min>
+      <max>320</max>
+    </entry>
+  </group>
+</kcfg>
