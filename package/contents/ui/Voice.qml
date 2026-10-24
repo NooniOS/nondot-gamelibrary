@@ -28,6 +28,12 @@ Item {
     // Para apagarlo suavemente (fadeOut).
     property real fade: 1
 
+    // La salida por defecto del sistema, que se actualiza sola: si conectas
+    // unos audífonos después de arrancar Plasma, el sonido pasa a ellos.
+    MediaDevices {
+        id: devices
+    }
+
     NumberAnimation {
         id: fadeAnim
         target: voice
@@ -63,6 +69,7 @@ Item {
                 source: voice.source
                 loops: voice.loop ? MediaPlayer.Infinite : 1
                 audioOutput: AudioOutput {
+                    device: devices.defaultAudioOutput
                     volume: voice.volume * voice.fade
                 }
             }

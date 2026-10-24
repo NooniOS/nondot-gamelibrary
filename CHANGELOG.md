@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Sounds follow the system's default audio output: headphones connected after Plasma starts are used right away.
+
 ## 1.0.1
 
 - New logo, also used as the widget's icon in Plasma's widget selector and About page.

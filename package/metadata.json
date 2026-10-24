@@ -14,7 +14,7 @@
         "Id": "io.github.noonios.nondotgamelibrary",
         "License": "GPL-2.0-or-later",
         "Name": "NonDot GameLibrary",
-        "Version": "1.0.1",
+        "Version": "1.0.2",
         "Website": "https://github.com/NooniOS/nondot-gamelibrary"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
